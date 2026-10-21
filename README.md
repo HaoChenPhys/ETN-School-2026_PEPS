@@ -4,7 +4,9 @@ Lecture and tutorial materials for the [European Tensor Network School 2026](htt
 
 ## Tutorial
 
-[The two-dimensional classical Ising model](notebooks/Ising.ipynb)
+The two-dimensional classical Ising model
+
+[Student exercises](notebooks/Ising_exercise.ipynb) · [Worked notebook](notebooks/Ising_sol.ipynb)
 
 - Construct a tensor-network representation of the partition function.
 - Approximate the infinite environment using CTMRG.
