@@ -8,7 +8,7 @@ PEPS Tutorial materials for the [European Tensor Network School 2026](https://ww
 python -m pip install numpy scipy torch matplotlib jupyterlab
 ```
 
-For the toric-code and variational optimization notebooks, also install YASTN:
+For the toric-code notebook, also install YASTN:
 
 ```bash
 python -m pip install "git+https://github.com/yastn/yastn.git"
@@ -22,12 +22,6 @@ python -m pip install "git+https://github.com/yastn/yastn.git"
 - Approximate the infinite environment using CTMRG.
 - Compute the partition function per site and magnetization.
 - Use automatic differentiation to obtain magnetization and specific heat.
-
-## Variational optimization
-
-[Notebook](notebooks/Heisenberg_optimization.ipynb)
-
-- Define the Heisenberg energy and optimize an iPEPS with YASTN and PyTorch.
 
 ## Toric code
 
