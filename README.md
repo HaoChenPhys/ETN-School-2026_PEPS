@@ -23,7 +23,16 @@ python -m pip install "git+https://github.com/yastn/yastn.git"
 - Compute the partition function per site and magnetization.
 - Use automatic differentiation to obtain magnetization and specific heat.
 
-## Toric code
+## The spin-2 AKLT state
+
+[Exercise](notebooks/AKLT_exercise.ipynb) · [Solution](notebooks/AKLT_sol.ipynb)
+
+- Construct a square-lattice AKLT PEPS from virtual singlets and local spin-2 projections.
+- Verify lattice symmetries and the parent-Hamiltonian property.
+- Reuse CTMRG to measure energy and local spin observables.
+- Variationally optimize an iPEPS for the spin-2 Heisenberg model using automatic differentiation and L-BFGS.
+
+## Toric code [Extra]
 
 [Exercise](notebooks/Toric_code_exercise.ipynb) · [Solution](notebooks/Toric_code_sol.ipynb)
 
