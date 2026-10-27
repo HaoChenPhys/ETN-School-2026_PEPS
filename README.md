@@ -8,7 +8,7 @@ PEPS Tutorial materials for the [European Tensor Network School 2026](https://ww
 python -m pip install numpy scipy torch matplotlib jupyterlab
 ```
 
-For the toric-code and variational optimization notebooks, also install YASTN:
+For the toric-code notebook, also install YASTN:
 
 ```bash
 python -m pip install "git+https://github.com/yastn/yastn.git"
@@ -23,13 +23,16 @@ python -m pip install "git+https://github.com/yastn/yastn.git"
 - Compute the partition function per site and magnetization.
 - Use automatic differentiation to obtain magnetization and specific heat.
 
-## Variational optimization
+## The spin-2 AKLT state
 
-[Notebook](notebooks/Heisenberg_optimization.ipynb)
+[Exercise](notebooks/AKLT_exercise.ipynb) · [Solution](notebooks/AKLT_sol.ipynb)
 
-- Define the Heisenberg energy and optimize an iPEPS with YASTN and PyTorch.
+- Construct a square-lattice AKLT PEPS from virtual singlets and local spin-2 projections.
+- Verify lattice symmetries and the parent-Hamiltonian property.
+- Reuse CTMRG to measure energy and local spin observables.
+- Variationally optimize an iPEPS for the spin-2 Heisenberg model using automatic differentiation and L-BFGS.
 
-## Toric code
+## Toric code [Extra]
 
 [Exercise](notebooks/Toric_code_exercise.ipynb) · [Solution](notebooks/Toric_code_sol.ipynb)
 
